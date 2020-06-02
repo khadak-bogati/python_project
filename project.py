@@ -9,3 +9,15 @@ print(genres_tuple[3])
 print(genres_tuple[3:6])
 print(genres_tuple[0:2])
 print(genres_tuple.index("disco"))
+
+
+
+output
+...................
+(-5, 1, -3)
+[-5, -3, 1]
+('pop', 'rock', 'soul', 'hard rock', 'soft rock', 'R&B', 'progressive rock', 'disco')
+hard rock
+('hard rock', 'soft rock', 'R&B')
+('pop', 'rock')
+7
