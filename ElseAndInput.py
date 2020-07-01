@@ -38,3 +38,19 @@ try:
 		inputFile.close()
 except IOError as error:
 	print("An error occurred reading the file!")
+	
+	
+	
+	==========================================================
+try:
+	inputFile = open("NumberAndLetter.txt", mode = "r")
+	for line in inputFile:
+		try:
+			print(int(line))
+		except ValueError as error:
+			print("A value error occurred")
+		else:
+			print("No error occurred converting this line")
+	inputFile.close()
+except IOError as error:
+	print("An error occurred reading the file!")
